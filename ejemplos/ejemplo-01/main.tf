@@ -5,7 +5,7 @@ provider "aws" {
 
 # Creamos una instancia EC2
 resource "aws_instance" "instancia_ejemplo_01" {
-  ami           = "ami-00874d747dde814fa"
+  ami           = "ami-04b4f1a9cf54c11d0"
   instance_type = "t2.small"
   key_name      = "vockey"
   tags = {
